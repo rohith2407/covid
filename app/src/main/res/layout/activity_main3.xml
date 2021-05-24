@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fever"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cough"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throt pain"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Pain"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headache"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiredness"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="292dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Others"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your symptoms"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="49dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
